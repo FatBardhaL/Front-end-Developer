@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<!-- Fontet e marura ne: https://www.bootstrapcdn.com/fontawesome/
+		 ne linkun: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+	-->
+	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- Shfrytezimi i ketyre linkeve: font awesome for bootstrap github
+			https://github.com/FortAwesome/Font-Awesome
+	-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>Basic Bootstrap Classes</title>
+</head>
+<body>
+	<div class="container-fluid AllContent pl-0 pr-0">
+		<header class="fixed-top">
+			<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+				<div class="container mx-auto" id="navbari">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#vegzaLidhese" aria-controls="vegzaLidhese" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="vegzaLidhese">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item active col-2-sm col-2-md col-2-lg">
+								<a href="#home" class="nav-link">
+								Home
+	 								<!--<span class="sr-only">(current)</span> -->
+								</a>
+							</li>
+							<li class="nav-item col-3-sm col-3-md col-3-lg">
+								<a href="#Rezervimet" class="nav-link">Rezervimet</a>
+							</li>
+							<a href="#" class="navbar navbar-brand mx-0">Dita & Nora</a>
+							<li class="nav-item col-2-sm col-2-md col-2-lg">
+								<a href="#Stafi" class="nav-link">Stafi</a>
+							</li>
+							<li class="nav-item col-2-sm col-2-md col-2-lg">
+								<a href="#Contact" class="nav-link">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Div1.................................................................................. -->
+		<div id="home" class="div1">
+			<div class="container">
+				<!-- CAROUSEL............................................................... -->
+				<div id="carouselExampleIndicators" class="carousel position-unset slide img-thumbnail mx-auto" data-ride="carousel">
+				  	<ol class="carousel-indicators mb-3">
+				  		<!-- <div class="mb-2 display-flex"> -->
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				  		<!-- </div> -->
+					</ol>
+					<div class="carousel-inner mx-auto">
+					    <div class="carousel-item h-100 active">
+					      <img class="d-block w-100 h-100" src="Image/ImageSlider1.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item h-100">
+					      <img class="d-block w-100 h-100" src="Image/ImageSlider2.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item h-100">
+					      <img class="d-block w-100 h-100" src="Image/ImageSlider3.jpg" alt="Third slide">
+					    </div>
+					    <div class="carousel-item  h-100">
+					      <img class="d-block w-100 h-100" src="Image/ImageSlider4.jpg" alt="Forth slide">
+					    </div>
+					    <div class="carousel-item  h-100">
+					      <img class="d-block w-100 h-100" src="Image/ImageSlider6.jpg" alt="Five slide">
+					    </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="Rezervimet" class="div2">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class=" d-flex flex-row my-flex-container">
+							<div class="katrori mx-auto my-auto">Prerje</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class=" d-flex ">
+							<div class="katrori mx-auto my-auto">Ngjyrosje</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="katrori mx-auto my-auto">Frizura</div>
+					</div>
+					<div class="col">
+						<div class="katrori mx-auto my-auto">MakeUp</div>
+					</div>
+					<div class="col">
+						<div class="katrori mx-auto my-auto">Pedikyr</div>
+					</div>
+					<div class="col">
+						<div class="katrori mx-auto my-auto">Depilim</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="div3">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="katrori_kalendarit">
+								
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<form>
+							<h2 class="text-center py-3 text-hiri">REZERVIMET</h2>
+							<div class="form-group">
+								<!-- <label>LLoji i sherbimit</label> -->
+								<input type="text" class="form-control form-control-sm" placeholder="LLoji i sherbimit">
+							</div>
+							<div class="form-group">
+								<!-- <label>LLoji i sherbimit</label> -->
+								<input type="text" class="form-control form-control-sm" placeholder="Puntorja">
+							</div>
+							<div class="form-group">
+								<!-- <label>LLoji i sherbimit</label> -->
+								<input type="text" class="form-control form-control-sm" placeholder="Ora">
+							</div>
+							<div class="form-group">
+								<!-- <label>LLoji i sherbimit</label> -->
+								<input type="text" class="form-control form-control-sm" placeholder="Data">
+							</div>
+							<div class="form-group">
+								<!-- <label>LLoji i sherbimit</label> -->
+								<input type="text" class="form-control form-control-sm" placeholder="Nr.Tel">
+							</div>
+							<button type="submit" class="btn ngjyr-hiri aktiv-ngjyra text-white float-center col">REZERVO</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Stafi" class="div4">
+			<div class="container">
+				<div class="row mt-83">
+					<div class="col-md-6">
+						<div class="foto_korniz mb-64">
+					    	<img class="d-block w-100 h-100" src="Image/Nora.jpg" alt="Forth slide">
+					    	<div class="container">
+						    	<div class="foto-text activ-hija aktiv-ngjyra offset-sm-3 offset-md-1 offset-lg-3"">
+						    		<h4 class="text-white text-center my-auto h4_name">Name Surname</h4>
+						    		<p class="text-white text-center">Manikyr & Pedikyr</p>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="foto_korniz mb-64">
+					    	<img class="d-block w-100 h-100" src="Image/Dita.jpg" alt="Forth slide">
+					    	<div class="foto-text aktiv-ngjyra activ-hija offset-sm-3 offset-md-1 offset-lg-3"">
+					    		<h4 class="text-white text-center my-auto h4_name">Name Surname</h4>
+					    		<p class="text-white text-center">Manikyr & Pedikyr</p>
+					    	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div  id="Contact" class="div5">
+			<div class="harta">
+				<div class="row mx-0">
+					<div class="col-md-12 px-0">
+											<!-- 						<iframe class="position-relative w-100 px-0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2934.848000786082!2d21.154008151589967!3d42.643382195618344!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1533157122107" height="450" frameborder="0" style="border:0" allowfullscreen>
+											</iframe> -->
+
+											<!-- 							<iframe class="position-relative w-100 px-0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d872.5415780266333!2d21.15527978608503!3d42.6429510246806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1534027119731" height="450"  frameborder="0" style="border:0" allowfullscreen>
+
+											</iframe> -->
+                    	<div id="map-container" class="map-container position-relative w-100 px-0" style="width: 100%; height: 400px;">
+                        	<div id="map"></div>
+						</div>
+					</div>
+					<div class="container-fluid position-absolute">
+						<!-- Permisimet -->
+						<div class="row px-0">
+							<div class="adresa ngjyr-hiri text-white float-left col-md-12 col-sm-12 justify-items-center d-flex pl-0">
+								<div class="container">
+									<div class="row ">
+										<ul class="text-center d-inline-flex list-style-none decoration-none mx-auto">
+											<li class="col-2-sm col-2-md col-2-lg float-left p-0 px-2">
+												<p class="m-3 pt-1">	
+													<i class="fas fa-phone-volume">    +3830000000000</i>
+												</p>
+											</li>
+											<li class="list-style-none nav-item col-3-sm col-3-md col-3-lg px-2">
+												<p class="m-3 pt-1">	
+													<i class="fas fa-phone-volume">    +3830000000000</i>
+												</p>
+											</li>
+											<li class="list-style-none nav-item col-3-sm col-3-md col-3-lg px-2">
+												<p class="m-3 pt-1">
+													<i class="fas fa-phone-volume">    rr.Emri i rruges(Studio gjendet te ..)</i>
+												</p>
+											</li>
+											<li class="list-style-none nav-item col-3-sm col-3-md col-3-lg px-2">
+										        <a href="https://www.facebook.com/" class="btn btn-dark border-none btn-facebook" value="Facebook">
+										            <i class="fa fa-facebook" aria-hidden="true"></i>
+										        </a>
+											</li>
+											<li class="list-style-none nav-item col-3-sm col-3-md col-3-lg px-2">
+										        <a href="https://twitter.com/?lang=en"  class="btn btn-dark btn-twitter" value="twitter">
+										            <i class="fa fa-twitter" aria-hidden="true"></i>
+										        </a>
+											</li>
+											<li class="list-style-none nav-item col-3-sm col-3-md col-3-lg px-2">
+										        <a href="https://plus.google.com/collections/featured"  class="btn btn-dark btn-google" value="google">
+										            <i class="fa fa-google-plus" aria-hidden="true"></i>
+										        </a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							<!-- <div class="hija"></div> -->
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<footer class="ngjyr-hiri hija">
+			<p class="text-center text-white my-2 pt-1">DITA & NORA</p>
+		</footer>
+	</div>
+
+
+
+
+
+
+
+<!-- 
+https://www.onlineittuts.com/user-management-system.html
+https://www.onlineittuts.com/best-php-scripts.html
+
+https://www.google.com/search?ei=JFbvWsCpIYva6ASJ06CYAQ&q=font+awesome+for+bootstrap+github&oq=font+awesome+for+bootstrap+github&gs_l=psy-ab.3..0.386194.415939.0.416829.35.32.3.0.0.0.493.4990.0j20j5j0j2.27.0....0...1.1.64.psy-ab..5.28.4812...0i67k1j0i131k1j0i22i30k1j33i160k1j0i13k1j0i13i30k1j0i8i13i30k1j0i30k1j0i5i30k1j0i8i30k1.0.MnFb_Ly0gxY
+
+
+https://github.com/FortAwesome/Font-Awesome
+https://www.bootstrapcdn.com/fontawesome/
+
+
+ -->
+
+
+
+	<script type="text/javascript" src="js/bootstrapjquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript">
+          function initMap(){
+            var location = {lat: 42.642899, lng:21.154049};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom : 18,
+                center : location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map:map,
+                title:'Salloni Nora&Dita',
+                icon:'Image/if_location.png'
+                
+            });
+          }
+      </script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap"></script>
+</body>
+</html>
